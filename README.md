@@ -15,11 +15,11 @@ Create an account with [Pushover](https://pushover.net). You can make a one-time
 
 Log in and create a new application [here](https://pushover.net/apps/build). Fill out the necessary fields (including the icon). After creating it, you should be able to obtain the *API Token/Key*:
 
-![Screenshot of page after creating application]("https://i.imgur.com/kx2KoSj.png")
+![Screenshot of page after creating application](https://i.imgur.com/kx2KoSj.png)
 
 You also need your *User Key* which can be found on the Pushover home page:
 
-![Screenshot of pushover home page when logged in]("https://i.imgur.com/WHMtRe7.png")
+![Screenshot of pushover home page when logged in](https://i.imgur.com/WHMtRe7.png)
 
 The environment variables need to be set up to send notifications via the [Pushover API](https://pushover.net/api). So create a .env file in the directory where you cloned the repo, enter these vars and add your token and key respectively (enclosed with ""):
 ```
